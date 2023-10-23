@@ -1,5 +1,5 @@
 const cats = ["Milo", "Otis", "Garfield"];
-destructivelyPrependCat("Whiskers");
+
 function appendCat(name) {
     const newCats = cats.slice(); 
     newCats.push(name); 
